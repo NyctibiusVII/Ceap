@@ -1,0 +1,22 @@
+# Change Log
+
+All notable changes in the "Ceap" project will be documented in this file.
+
+#### How does versioning work?
+- Version tag (v)
+- [Major].[Deploy].[Patch]
+- `v1.10.100`
+
+Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommendations on how to structure this file.
+
+## [0.0.1] - 2023-12-14
+### Added
+- `public/favicon.svg`
+- `src/index.html`
+- `src/script.js`
+- `src/styles.css`
+- `.editorconfig`
+- `.gitignore`
+- `CHANGELOG`
+- `CONTRIBUTING`
+- `LICENSE`
