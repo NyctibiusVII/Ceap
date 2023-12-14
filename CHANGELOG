@@ -9,14 +9,22 @@ All notable changes in the "Ceap" project will be documented in this file.
 
 Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommendations on how to structure this file.
 
-## [0.0.1] - 2023-12-14
+## [0.0.1, 0.1.2] - 2023-12-14
 ### Added
-- `public/favicon.svg`
-- `src/index.html`
-- `src/script.js`
-- `src/styles.css`
-- `.editorconfig`
-- `.gitignore`
+- Fav icon `public/favicon.svg`
+- Init `src/index.html`
+- Init `src/script.js`
+- Init `src/styles.css`
+- Set configs `.editorconfig`
+- Set configs `.gitignore`
 - `CHANGELOG`
 - `CONTRIBUTING`
 - `LICENSE`
+---
+### Added
+- Arrow icon `public/assets/arrow.svg`
+- Full white logo `public/assets/logo-icon.svg`
+### Changed
+- Structuring html `src/index.html`
+- Toggle functions (section login / password visibility) `src/script.js`
+- Basic test styling `src/styles.css`

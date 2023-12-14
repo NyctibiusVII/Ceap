@@ -1,12 +1,44 @@
 * {
+    border: 1px solid #00f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    width: calc(100vw - 2px);
+    height: calc(100vh - 2px);
     background-color: #242424;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 20em;
+    background-color: #f00;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background-color: #0f0;
+    margin: 1em;
+}
+section#section-login-voucher {
+    height: 0;
+}
+
+.password-eye {
+    width: 1em;
+    height: 1em;
+    background-color: #00f;
+    padding: 0.2em;
+    position: relative;
+    top: 0.5em;
+    right: 0.5em;
+    cursor: pointer;
 }
