@@ -9,7 +9,7 @@ All notable changes in the "Ceap" project will be documented in this file.
 
 Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommendations on how to structure this file.
 
-## [0.0.1, 0.1.2] - 2023-12-14
+## [0.0.1, 0.1.2, 0.2.3] - 2023-12-14
 ### Added
 - Fav icon `public/favicon.svg`
 - Init `src/index.html`
@@ -28,3 +28,8 @@ Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommenda
 - Structuring html `src/index.html`
 - Toggle functions (section login / password visibility) `src/script.js`
 - Basic test styling `src/styles.css`
+---
+### Removed
+- `src/index.html`
+### Added
+- Content not changed `index.html`
