@@ -11,9 +11,9 @@
     </head>
 
     <body>
-        <image src="public/assets/logo-icon.svg" alt="" width="80" height="80" />
-
         <main>
+            <image id="logo-icon" src="public/assets/logo-icon.svg" alt="" width="80" height="80" />
+
             <section id="section-login-default">
                 <h1>Login</h1>
 
@@ -24,8 +24,10 @@
                     </div>
                     <div class="password-container">
                         <label for="password-input">Senha</label>
-                        <input type="password" name="password-input" id="password-input" placeholder="**********" required>
-                        <span onclick="togglePasswordVisibility()" class="password-eye">👁</span>
+                        <div class="password-eye-container">
+                            <input type="password" name="password-input" id="password-input" placeholder="••••••••••••••••" required>
+                            <span onclick="togglePasswordVisibility()" class="password-eye">👁</span>
+                        </div>
                     </div>
 
                     <button type="submit">Continuar</button>
@@ -34,7 +36,7 @@
 
             <button id="toggle-login-type" class="type-login-default" type="button" onclick="toggleLogin()">
                 Área de visitantes
-                <image src="public/assets/arrow.svg" alt="" width="20" height="20" />
+                <image id="arrow-icon" src="public/assets/arrow.svg" alt="" width="22" height="22" />
             </button>
 
             <section id="section-login-voucher">

@@ -11,7 +11,7 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{md, markdown, txt}]
+[*.{md, markdown, txt, html}]
 indent_size = 4
 insert_final_newline = false
 

@@ -33,3 +33,15 @@ Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommenda
 - `src/index.html`
 ### Added
 - Content not changed `index.html`
+
+## [0.3.4] - 2023-12-15
+### Added
+- Background `public/assets/background.svg`
+- Full white logo `public/assets/logo-icon-full-white.svg`
+### Changed
+- Logo colored `public/assets/logo-icon.svg`
+- Adapting interactions with the layout `src/script.js`
+- Creating all the necessary stylization `src/styles.css`
+- Add `.temp` in `.gitignore`
+- Add `.html` in `.editorconfig`
+- Restructuring the logo image in `index.html`
