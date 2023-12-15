@@ -34,7 +34,7 @@ Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommenda
 ### Added
 - Content not changed `index.html`
 
-## [0.3.4, 0.4.5] - 2023-12-15
+## [0.3.4, 0.4.5, 0.5.6] - 2023-12-15
 ### Added
 - Background `public/assets/background.jpeg`
 - Full white logo `public/assets/logo-icon-full-white.svg`
@@ -50,3 +50,6 @@ Check [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) for recommenda
 - `public/assets/background.jpg`
 ### Added
 - Content not changed `public/assets/background.jpeg`
+---
+### Changed
+- Using absolute path for get image in `src/styles.css`
